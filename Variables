@@ -1,0 +1,9 @@
+Start with $               $name
+Contain dashes(-)          $my-Name
+underscore(_)              $my_name
+letters(a,b,...A,B,...)    $myName
+numbers(1,2,...)           $name12
+Case sensitive             $Name and $name are different
+No space                   $nam e  <-- not correct
+Can't start with numbers   $13name <-- not correct
+Bad practice               $-name $_name  <-- putting -_ at start

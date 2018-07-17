@@ -1,0 +1,15 @@
+Document Overview
+
+Python equivalent in PHP:
+
+# is //
+
+''' is /*
+'''    */
+
+print() is echo"";
+
+\n is <br> for new line. To execute it write it as:
+<?php
+echo "<br";
+?>
