@@ -7,7 +7,7 @@
 
 
 	<?php
-		$name = "Amitesh";
+		$name = "Amitesh"; //Declaring variables with $ sign
 		echo $name; 
 		echo " <br>";
 		

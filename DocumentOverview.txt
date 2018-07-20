@@ -1,0 +1,42 @@
+Document Overview
+
+Python equivalent in PHP:
+
+Comment:
+# is //
+
+''' is /*
+'''    */
+
+Print:
+print() is echo"";
+
+New LIne:
+\n is <br> for new line. To execute it write it as:
+<?php
+echo "<br>";
+?>
+
+Variables:
+variables are prefixed with a dollar sign($).
+
+Constant:
+define("constant_name",value_for_our_constant); 
+tells php that we are declaring our constant
+
+echo "our_constant: " . constant_name;
+will print contant_name as our_constant: value_for_our_constant
+
+Value of constant cannot be changed later in our code. Doing so will gegenrate en error.
+Unlike variables, a constant need not be use a $ sign before declaring it. 
+
+String:
+Same as python. "" or ''. However, while declaring a variable, it is better to use double quotations because sinle quotes may give out the variable text itself and not the value inside the variable.
+
+^ is pow()
+
+% is fmod()
+
+Like Python, array indexes start at 0
+
+<p> </p> is for paragraphs
